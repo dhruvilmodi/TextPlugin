@@ -41,5 +41,4 @@ section2Btn.addEventListener("click", function () {
 
 section3Btn.addEventListener("click", function () {
         timeline4.to(window, {duration:0.5, scrollTo:{y:body, ease: "power4", autoKill: true}});
-        timeline1.restart();
 })
