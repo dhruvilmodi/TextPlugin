@@ -28,18 +28,18 @@ window.onload = function(){
 }
 
 section1Btn.addEventListener("click", function () {
-        timeline2.to(window, {duration:1, scrollTo:{y:section2, ease: "power4", autoKill: true, onAutoKill: myAutoKillFunction}});
-        timeline2.to(section2H1, {duration: 1, text:"This is section 2", ease:"power1"}, "+=1")
+        timeline2.to(window, {duration:1, scrollTo:{y:section2, ease: "power4", autoKill: true}});
+        timeline2.to(section2H1, {duration: 1, text:"This is section 2 and it does nothing ;)", ease:"power1"}, "+=1")
         timeline2.from(section2Btn, {duration: 2, opacity:0}, "+=1")
 })
 
 section2Btn.addEventListener("click", function () {
-        timeline3.to(window, {duration:1, scrollTo:{y:section3, ease: "power4", autoKill: true, onAutoKill: myAutoKillFunction}});
-        timeline3.to(section3H1, {duration: 1, text:"This is section 3", ease:"power1"}, "+=1")
+        timeline3.to(window, {duration:1, scrollTo:{y:section3, ease: "power4", autoKill: true}});
+        timeline3.to(section3H1, {duration: 1, text:"This is section 3. You have come this far for nothing. GO HOME NOW.", ease:"power1"}, "+=1")
         timeline3.from(section3Btn, {duration: 2, opacity:0}, "+=1")
 })
 
 section3Btn.addEventListener("click", function () {
-        timeline4.to(window, {duration:0.5, scrollTo:{y:body, ease: "power4", autoKill: true, onAutoKill: myAutoKillFunction}});
+        timeline4.to(window, {duration:0.5, scrollTo:{y:body, ease: "power4", autoKill: true}});
         timeline1.restart();
 })
