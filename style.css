@@ -1,0 +1,61 @@
+*{
+    font-family: 'Quicksand', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+header{
+    background-color: #ffffff;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14pt;
+    background-color: yellow;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    top: 15vh;
+}
+
+/* ------------- Section 1 ------------- */
+
+#section1{
+    height: 90vh;
+    background-color: #158de9;
+    color: #ffffff;
+}
+
+#section1 h1,h2,h3,h4{
+    margin: 1em;
+    letter-spacing: 1px;
+}
+
+/* ------------- Section 2 ------------- */
+
+#section2{
+    height: 100vh;
+    background-color: #e98315;
+    color: #ffffff;
+}
+
+/* ------------- Section 3 ------------- */
+
+#section3{
+    height: 100vh;
+    background-color: #1a8e23;
+    color: #ffffff;
+}
